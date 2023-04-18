@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/TT2SaveConverter/io/ISavableGlobal.adat
+/TT2SaveConverter/io/result.json
+/TT2SaveConverter/io/decrypted.json

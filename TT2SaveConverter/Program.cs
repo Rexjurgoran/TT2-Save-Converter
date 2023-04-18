@@ -7,6 +7,10 @@ namespace TT2Decryptor
     public class TT2SaveConverter
     {
         private const string SaveFileEncryptionKeyString = "4bc07927192f4e9a";
+        private const string IOPath = "../../../io/";
+        private const string SaveFilePath = IOPath + "ISavableGlobal.adat";
+        private const string DecryptedPath = IOPath + "decrypted.json";
+        private const string ResultPath = IOPath + "result.json";
 
         private static JObject SaveObject { get; set; } = new JObject();
         private static readonly Dictionary<string, string> setTranslation = new();
@@ -18,9 +22,9 @@ namespace TT2Decryptor
         private static async Task MainAsync()
         {
             string decryptedJson = GetSaveFileContentString();
-            await File.WriteAllTextAsync("../../../decrypted.json", decryptedJson);
+            await File.WriteAllTextAsync(DecryptedPath, decryptedJson);
             string resultJson = GetResultJson();
-            await File.WriteAllTextAsync("../../../result.json", resultJson);
+            await File.WriteAllTextAsync(ResultPath, resultJson);
         }
         private static string GetResultJson()
         {           
@@ -591,7 +595,7 @@ namespace TT2Decryptor
         }
         private static string GetSaveFileContentString()
         {
-            string decryptedFile = DecryptSaveFile("../../../ISavableGlobal.adat");
+            string decryptedFile = DecryptSaveFile(SaveFilePath);
             int endPos = decryptedFile.IndexOf("playerData");
             string rawjson = decryptedFile.Substring(0, endPos - 2) + "}";
             var json = JObject.Parse(rawjson);
