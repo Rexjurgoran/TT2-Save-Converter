@@ -1,0 +1,1960 @@
+{
+    "Artifact22": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.33556944533557,
+            "exponent": 58.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 5.50633535233863,
+            "exponent": 202.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact95": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.8111389,
+            "exponent": 72.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.50047281752143,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact2": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.8111389,
+            "exponent": 72.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.50047281752142,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact19": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.511127778,
+            "exponent": 72.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.51736619752391,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact1": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 3.0,
+            "exponent": 69.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 8.5877525466409,
+            "exponent": 193.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact20": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.700126678,
+            "exponent": 63.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.75869822773884,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact66": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.811127778,
+            "exponent": 72.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 5.25046134041145,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact43": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.0,
+            "exponent": 56.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.57739336120048,
+            "exponent": 156.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact44": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.511127778,
+            "exponent": 72.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.51736619752391,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact45": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 59.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.92179909437029,
+            "exponent": 166.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact79": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.0,
+            "exponent": 5.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.5000350001574,
+            "exponent": 13.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact82": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.811127778,
+            "exponent": 72.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 5.25046134041145,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact94": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.800126678,
+            "exponent": 63.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.89746217422686,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact84": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.800126678,
+            "exponent": 63.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.89746217422686,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact26": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.700126678,
+            "exponent": 63.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.75869822773884,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact31": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.41124111,
+            "exponent": 67.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.67305253721481,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact29": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 7.0,
+            "exponent": 61.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.13084664099525,
+            "exponent": 166.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact51": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 5.0,
+            "exponent": 55.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.91666666666667,
+            "exponent": 166.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact59": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 8.55694444,
+            "exponent": 74.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.61368573634735,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact83": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.41124111,
+            "exponent": 67.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.67305253721481,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact35": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 7.66694445,
+            "exponent": 74.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.00142361413169,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact32": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 7.66694445,
+            "exponent": 74.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.00142361413169,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact33": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 7.66694445,
+            "exponent": 74.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.00142361413169,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact34": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 7.66694445,
+            "exponent": 74.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.00142361413169,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact61": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 7.66694445,
+            "exponent": 74.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.00142361413169,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact62": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 7.66694445,
+            "exponent": 74.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.00142361413169,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact38": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 55.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.49333333333333,
+            "exponent": 166.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact30": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 7.66694445,
+            "exponent": 74.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.00142361413169,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact98": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 7.0,
+            "exponent": 61.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.48598774782779,
+            "exponent": 166.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact99": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 8.0,
+            "exponent": 68.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.83189561316744,
+            "exponent": 185.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact64": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.811127778,
+            "exponent": 72.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 5.25046134041145,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact52": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.700126678,
+            "exponent": 63.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.75869822773884,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact53": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.700126678,
+            "exponent": 63.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.75869822773884,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact96": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.700126678,
+            "exponent": 63.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.75869822773886,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact97": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.700126678,
+            "exponent": 63.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.75869822773886,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact67": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 8.55694444,
+            "exponent": 74.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.61368573634735,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact42": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 8.55694444,
+            "exponent": 74.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.61368573634735,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact46": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 7.0,
+            "exponent": 61.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.13084664099525,
+            "exponent": 166.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact55": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.00007629,
+            "exponent": 65.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 3.33409629153646,
+            "exponent": 194.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact56": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.41124111,
+            "exponent": 67.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.67305253721481,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact75": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.0,
+            "exponent": 52.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 5.10226931400383,
+            "exponent": 165.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact76": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.790026667,
+            "exponent": 63.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 5.21091250801217,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact77": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.790026667,
+            "exponent": 63.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 5.21091250801217,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact78": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.790026667,
+            "exponent": 63.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 5.21091250801217,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact40": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.790026667,
+            "exponent": 63.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 5.21091250801217,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact25": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.22238112,
+            "exponent": 67.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.37819640702421,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact17": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.22238112,
+            "exponent": 67.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.37819640702421,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact23": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.22238112,
+            "exponent": 67.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.37819640702421,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact73": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.22238112,
+            "exponent": 67.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.37819640702421,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact28": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.22238112,
+            "exponent": 67.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.37819640702421,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact86": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.700126678,
+            "exponent": 63.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.75869822773884,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact87": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.700126678,
+            "exponent": 63.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.75869822773884,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact88": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.700126678,
+            "exponent": 63.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.75869822773884,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact89": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.700126678,
+            "exponent": 63.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.75869822773884,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact90": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.700126678,
+            "exponent": 63.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.75869822773886,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact47": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.8111389,
+            "exponent": 72.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.50047281752142,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact11": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.29,
+            "exponent": 52.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.11014499179223,
+            "exponent": 140.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact41": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 8.55694444,
+            "exponent": 74.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.61368573634735,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact9": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 8.55694444,
+            "exponent": 74.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.61368573634734,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact10": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.0,
+            "exponent": 58.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 8.84682601229992,
+            "exponent": 155.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact7": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 8.55694444,
+            "exponent": 74.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.61368573634735,
+            "exponent": 201.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact6": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.8,
+            "exponent": 43.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.36780204907125,
+            "exponent": 116.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact100": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 71.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 5.48651097700382,
+            "exponent": 192.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact101": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 3.0,
+            "exponent": 71.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.52325802753036,
+            "exponent": 192.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact102": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.0,
+            "exponent": 58.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 6.70679858672814,
+            "exponent": 156.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact103": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 9.0,
+            "exponent": 63.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.43,
+            "exponent": 191.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 1.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact65": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 8.5012,
+            "exponent": 4.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact48": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 3.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.1634,
+            "exponent": 5.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact13": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 3.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.9646,
+            "exponent": 4.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact15": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 3.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.9644,
+            "exponent": 4.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact16": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 3.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.9646,
+            "exponent": 4.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact14": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 3.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.9646,
+            "exponent": 4.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact12": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 3.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.9644,
+            "exponent": 4.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact36": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 2.649,
+            "exponent": 4.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact27": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 3.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.29804,
+            "exponent": 5.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact39": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0356,
+            "exponent": 5.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact37": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 3.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.29802,
+            "exponent": 5.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact3": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.03562,
+            "exponent": 5.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact8": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.03562,
+            "exponent": 5.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact50": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.03561,
+            "exponent": 5.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact58": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 8.5016,
+            "exponent": 4.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact68": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 8.5016,
+            "exponent": 4.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact18": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 9.41644,
+            "exponent": 5.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact21": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 5.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 3.01047,
+            "exponent": 5.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact5": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 5.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 3.0746,
+            "exponent": 4.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact4": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 9.6629,
+            "exponent": 4.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact54": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 9.6628,
+            "exponent": 4.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact70": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 9.6624,
+            "exponent": 4.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact74": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 9.6629,
+            "exponent": 4.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact72": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 9.6629,
+            "exponent": 4.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact69": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 8.5015,
+            "exponent": 4.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": true
+    },
+    "Artifact63": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 3.36301,
+            "exponent": 5.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact24": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 8.5016,
+            "exponent": 4.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact71": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 5.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 8.12967,
+            "exponent": 5.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact91": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 5.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 8.12971,
+            "exponent": 5.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact92": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 5.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 8.12971,
+            "exponent": 5.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact93": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 5.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 8.1297,
+            "exponent": 5.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact49": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 8.5014,
+            "exponent": 4.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact80": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.345206,
+            "exponent": 6.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact81": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 1.345207,
+            "exponent": 6.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact85": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 5.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 3.251882,
+            "exponent": 6.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact57": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 4.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 8.5016,
+            "exponent": 4.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "Artifact60": {
+        "level": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 6.0,
+            "exponent": 1.0,
+            "$type": "GHDouble"
+        },
+        "relics_spent": {
+            "infinitySign": 0,
+            "isNaN": false,
+            "significand": 3.60567,
+            "exponent": 5.0,
+            "$type": "GHDouble"
+        },
+        "enchantment_level": 0.0,
+        "disenchantment_date": "0001-01-01T00:00:00",
+        "is_favourite": false
+    },
+    "$type": "System.Collections.Generic.Dictionary`2[[ArtifactID, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"
+}

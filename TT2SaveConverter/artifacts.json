@@ -1,0 +1,414 @@
+{
+    "Book of Shadows": {
+        "enchanted": "True",
+        "level": "3.103E+58"
+    },
+    "Charged Card": {
+        "enchanted": "True",
+        "level": "1.811E+72"
+    },
+    "Stone of the Valrunes": {
+        "enchanted": "True",
+        "level": "1.811E+72"
+    },
+    "Chest of Contentment": {
+        "enchanted": "True",
+        "level": "1.511E+72"
+    },
+    "Heroic Shield": {
+        "enchanted": "True",
+        "level": "3.000E+69"
+    },
+    "Book of Prophecy": {
+        "enchanted": "True",
+        "level": "1.700E+63"
+    },
+    "Khrysos Bowl": {
+        "enchanted": "True",
+        "level": "1.811E+72"
+    },
+    "Zakynthos Coin": {
+        "enchanted": "True",
+        "level": "1.000E+56"
+    },
+    "Great Fay Medallion": {
+        "enchanted": "True",
+        "level": "1.511E+72"
+    },
+    "Neko Sculpture": {
+        "enchanted": "True",
+        "level": "4.000E+59"
+    },
+    "Coins of Ebizu": {
+        "enchanted": "True",
+        "level": "1.000E+5"
+    },
+    "The Bronzed Compass": {
+        "enchanted": "True",
+        "level": "1.811E+72"
+    },
+    "Evergrowing Stack": {
+        "enchanted": "True",
+        "level": "1.800E+63"
+    },
+    "Flute of the Soloist": {
+        "enchanted": "True",
+        "level": "1.800E+63"
+    },
+    "Heavenly Sword": {
+        "enchanted": "True",
+        "level": "1.700E+63"
+    },
+    "Divine Retribution": {
+        "enchanted": "True",
+        "level": "2.411E+67"
+    },
+    "Drunken Hammer": {
+        "enchanted": "True",
+        "level": "7.000E+61"
+    },
+    "Samosek Sword": {
+        "enchanted": "True",
+        "level": "5.000E+55"
+    },
+    "The Retaliator": {
+        "enchanted": "True",
+        "level": "8.557E+74"
+    },
+    "Stryfe's Peace": {
+        "enchanted": "False",
+        "level": "2.411E+67"
+    },
+    "Hero's Blade": {
+        "enchanted": "False",
+        "level": "7.667E+74"
+    },
+    "The Sword of Storms": {
+        "enchanted": "True",
+        "level": "7.667E+74"
+    },
+    "Furies Bow": {
+        "enchanted": "True",
+        "level": "7.667E+74"
+    },
+    "Charm of the Ancient": {
+        "enchanted": "True",
+        "level": "7.667E+74"
+    },
+    "Tiny Titan Tree": {
+        "enchanted": "False",
+        "level": "7.667E+74"
+    },
+    "Helm of Hermes": {
+        "enchanted": "False",
+        "level": "7.667E+74"
+    },
+    "Fruit of Eden": {
+        "enchanted": "True",
+        "level": "4.000E+55"
+    },
+    "Influential Elixir": {
+        "enchanted": "True",
+        "level": "7.667E+74"
+    },
+    "Shimmering Oil": {
+        "enchanted": "True",
+        "level": "7.000E+61"
+    },
+    "Golden Scope": {
+        "enchanted": "True",
+        "level": "8.000E+68"
+    },
+    "O'Ryan's Charm": {
+        "enchanted": "True",
+        "level": "1.811E+72"
+    },
+    "Heart of Storms": {
+        "enchanted": "False",
+        "level": "1.700E+63"
+    },
+    "Apollo Orb": {
+        "enchanted": "False",
+        "level": "1.700E+63"
+    },
+    "Sticky Fruit": {
+        "enchanted": "True",
+        "level": "1.700E+63"
+    },
+    "Hades Orb": {
+        "enchanted": "True",
+        "level": "1.700E+63"
+    },
+    "Earrings of Portara": {
+        "enchanted": "True",
+        "level": "8.557E+74"
+    },
+    "Avian Feather": {
+        "enchanted": "True",
+        "level": "8.557E+74"
+    },
+    "Corrupted Rune Heart": {
+        "enchanted": "False",
+        "level": "7.000E+61"
+    },
+    "Durendal Sword": {
+        "enchanted": "True",
+        "level": "1.000E+65"
+    },
+    "Helheim Skull": {
+        "enchanted": "True",
+        "level": "2.411E+67"
+    },
+    "Oath's Burden": {
+        "enchanted": "True",
+        "level": "1.000E+52"
+    },
+    "Crown of the Constellation": {
+        "enchanted": "True",
+        "level": "1.790E+63"
+    },
+    "Titania's Sceptre": {
+        "enchanted": "True",
+        "level": "1.790E+63"
+    },
+    "Fagin's Grip": {
+        "enchanted": "True",
+        "level": "1.790E+63"
+    },
+    "Ring of Calisto": {
+        "enchanted": "True",
+        "level": "1.790E+63"
+    },
+    "Blade of Damocles": {
+        "enchanted": "False",
+        "level": "2.222E+67"
+    },
+    "Helmet of Madness": {
+        "enchanted": "True",
+        "level": "2.222E+67"
+    },
+    "Titanium Plating": {
+        "enchanted": "True",
+        "level": "2.222E+67"
+    },
+    "Moonlight Bracelet": {
+        "enchanted": "True",
+        "level": "2.222E+67"
+    },
+    "Amethyst Staff": {
+        "enchanted": "True",
+        "level": "2.222E+67"
+    },
+    "Sword of the Royals": {
+        "enchanted": "True",
+        "level": "1.700E+63"
+    },
+    "Spearit's Vigil": {
+        "enchanted": "True",
+        "level": "1.700E+63"
+    },
+    "The Cobalt Plate": {
+        "enchanted": "True",
+        "level": "1.700E+63"
+    },
+    "Sigils of Judgement": {
+        "enchanted": "True",
+        "level": "1.700E+63"
+    },
+    "Foliage of the Keeper": {
+        "enchanted": "True",
+        "level": "1.700E+63"
+    },
+    "Invader's Gjallarhorn": {
+        "enchanted": "True",
+        "level": "1.811E+72"
+    },
+    "Titan's Mask": {
+        "enchanted": "True",
+        "level": "1.290E+52"
+    },
+    "Royal Toxin": {
+        "enchanted": "False",
+        "level": "8.557E+74"
+    },
+    "Laborer's Pendant": {
+        "enchanted": "True",
+        "level": "8.557E+74"
+    },
+    "Bringer of Ragnarok": {
+        "enchanted": "True",
+        "level": "1.000E+58"
+    },
+    "Parchment of Foresight": {
+        "enchanted": "False",
+        "level": "8.557E+74"
+    },
+    "Elixir of Eden": {
+        "enchanted": "True",
+        "level": "1.800E+43"
+    },
+    "Twin Bracers": {
+        "enchanted": "True",
+        "level": "4.000E+71"
+    },
+    "Cosmic Sextant": {
+        "enchanted": "False",
+        "level": "3.000E+71"
+    },
+    "Endless Bandolier": {
+        "enchanted": "False",
+        "level": "2.000E+58"
+    },
+    "Pearl of Oblivion": {
+        "enchanted": "True",
+        "level": "9.000E+63"
+    },
+    "Hourglass of the Impatient": {
+        "enchanted": "False",
+        "level": "4.000E+1"
+    },
+    "Phantom Timepiece": {
+        "enchanted": "False",
+        "level": "3.000E+1"
+    },
+    "Forbidden Scroll": {
+        "enchanted": "False",
+        "level": "3.000E+1"
+    },
+    "Ring of Fealty": {
+        "enchanted": "False",
+        "level": "3.000E+1"
+    },
+    "Glacial Axe": {
+        "enchanted": "False",
+        "level": "3.000E+1"
+    },
+    "Aegis": {
+        "enchanted": "False",
+        "level": "3.000E+1"
+    },
+    "Swamp Gauntlet": {
+        "enchanted": "False",
+        "level": "3.000E+1"
+    },
+    "Infinity Pendulum": {
+        "enchanted": "False",
+        "level": "2.000E+1"
+    },
+    "Glove of Kuma": {
+        "enchanted": "False",
+        "level": "3.000E+1"
+    },
+    "Titan Spear": {
+        "enchanted": "False",
+        "level": "4.000E+1"
+    },
+    "Oak Staff": {
+        "enchanted": "False",
+        "level": "3.000E+1"
+    },
+    "The Arcana Cloak": {
+        "enchanted": "False",
+        "level": "4.000E+1"
+    },
+    "Hunter's Ointment": {
+        "enchanted": "False",
+        "level": "4.000E+1"
+    },
+    "Ambrosia Elixir": {
+        "enchanted": "False",
+        "level": "4.000E+1"
+    },
+    "Mystic Staff": {
+        "enchanted": "False",
+        "level": "4.000E+1"
+    },
+    "Mystical Beans of Senzu": {
+        "enchanted": "False",
+        "level": "4.000E+1"
+    },
+    "Egg of Fortune": {
+        "enchanted": "False",
+        "level": "4.000E+1"
+    },
+    "Divine Chalice": {
+        "enchanted": "False",
+        "level": "5.000E+1"
+    },
+    "Invader's Shield": {
+        "enchanted": "False",
+        "level": "5.000E+1"
+    },
+    "Axe of Muerte": {
+        "enchanted": "False",
+        "level": "4.000E+1"
+    },
+    "Essence of the Kitsune": {
+        "enchanted": "False",
+        "level": "4.000E+1"
+    },
+    "Boots of Hermes": {
+        "enchanted": "False",
+        "level": "4.000E+1"
+    },
+    "Unbound Gauntlet": {
+        "enchanted": "False",
+        "level": "4.000E+1"
+    },
+    "Oberon Pendant": {
+        "enchanted": "False",
+        "level": "4.000E+1"
+    },
+    "Lucky Foot of Al-mi'raj": {
+        "enchanted": "False",
+        "level": "4.000E+1"
+    },
+    "Lost King's Mask": {
+        "enchanted": "False",
+        "level": "4.000E+1"
+    },
+    "Staff of Radiance": {
+        "enchanted": "False",
+        "level": "4.000E+1"
+    },
+    "Morgelai Sword": {
+        "enchanted": "False",
+        "level": "5.000E+1"
+    },
+    "Ringing Stone": {
+        "enchanted": "False",
+        "level": "5.000E+1"
+    },
+    "Quill of Scrolls": {
+        "enchanted": "False",
+        "level": "5.000E+1"
+    },
+    "Old King's Stamp": {
+        "enchanted": "False",
+        "level": "5.000E+1"
+    },
+    "The Master's Sword": {
+        "enchanted": "False",
+        "level": "4.000E+1"
+    },
+    "The Magnifier": {
+        "enchanted": "False",
+        "level": "4.000E+1"
+    },
+    "The Treasure of Fergus": {
+        "enchanted": "False",
+        "level": "4.000E+1"
+    },
+    "The White Dwarf": {
+        "enchanted": "False",
+        "level": "5.000E+1"
+    },
+    "Aram Spear": {
+        "enchanted": "False",
+        "level": "4.000E+1"
+    },
+    "Ward of the Darkness": {
+        "enchanted": "False",
+        "level": "6.000E+1"
+    }
+}
