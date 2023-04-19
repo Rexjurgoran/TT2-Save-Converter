@@ -1,10 +1,11 @@
 ﻿using Newtonsoft.Json.Linq;
 using System.Security.Cryptography;
+using System.Text;
 using System.Text.RegularExpressions;
 
 namespace TT2Decryptor
 {
-    public class TT2SaveConverter
+    public static class TT2SaveConverter
     {
         private const string SaveFileEncryptionKeyString = "4bc07927192f4e9a";
         private const string IOPath = "../../../io/";
@@ -199,7 +200,7 @@ namespace TT2Decryptor
                 skillTranslation.Add("DualPetMultiCastBoost", "SKILLTREE_DUALPETMULTICASTBOOST");
                 skillTranslation.Add("None", "None");
             }
-            if (!skillTranslation.TryGetValue(skill, out string value) || value.Equals(""))
+            if (!skillTranslation.TryGetValue(skill, out string value) || string.IsNullOrEmpty(value))
             {
                 value = "MISSING: " + skill;
             }
@@ -414,7 +415,7 @@ namespace TT2Decryptor
         {
             JObject raidCards = new();
             JArray allCards = (JArray)SaveObject["RaidCardModel"]?["cards"] ?? new();
-            foreach (JObject card in allCards)
+            foreach (var card in allCards)
             {
                 string skill_name = card.Value<string>("skill_name") ?? "";
                 int level = card.Value<int>("level");
@@ -529,7 +530,6 @@ namespace TT2Decryptor
                 setTranslation.Add("Chakram", "Jonalyn, the Deadly Flower");
                 setTranslation.Add("Spartan", "Spartan Champion");
                 setTranslation.Add("Scout", "Skywing Skirmisher");
-                //GENERIC: setTranslation.Add("Travel", "");
                 setTranslation.Add("FireTribe", "Woodland Warrior");
                 setTranslation.Add("Twilight", "Twilight Templar");
                 setTranslation.Add("Gambler", "Roll Player");
@@ -547,7 +547,7 @@ namespace TT2Decryptor
                 setTranslation.Add("Gingerbread", "Gingerbread Master");
                 setTranslation.Add("PlagueDoctor", "Plague Doctor");
             }
-            if (!setTranslation.TryGetValue(equipment, out string value) || value.Equals(""))
+            if (!setTranslation.TryGetValue(equipment, out string value) || string.IsNullOrEmpty(value))
             {
                 value = "MISSING: " + equipment;
             }
@@ -592,7 +592,7 @@ namespace TT2Decryptor
         }
         private static void ManageArray(JArray jArray)
         {
-            JArray tmpArrayLocal = (JArray)jArray.DeepClone();
+            _ = (JArray)jArray.DeepClone();
             for (int i = 0; i < jArray.Count; i++)
             {
                 if (jArray[i].Type.Equals(JTokenType.Object))
@@ -662,18 +662,18 @@ namespace TT2Decryptor
         }
         private static string Match()
         {
-            string result = "";
-            JObject artifactModel = JObject.Parse(File.ReadAllText("../../../artifactModel.json"));
+            StringBuilder stringBuilder = new();
+            _ = JObject.Parse(File.ReadAllText("../../../artifactModel.json"));
             JObject artifacts = JObject.Parse(File.ReadAllText("../../../artifacts.json"));
             foreach (JProperty property in artifacts.Children<JProperty>())
             {
                 JObject value = (JObject)property.Value;
                 string level = value.Value<string>("level") ?? "";
-                string significand = level.Split("E+")[0];
-                string exponent = level.Split("E+")[1];
-                result += "";
+                _ = level.Split("E+")[0];
+                _ = level.Split("E+")[1];
+                stringBuilder.Append("");
             }
-            return result;
+            return stringBuilder.ToString();
         }
     }
 }
