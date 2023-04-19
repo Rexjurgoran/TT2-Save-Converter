@@ -42,7 +42,7 @@ namespace TT2Decryptor
             {
                 new JProperty("Max Prestige Stage", SaveObject["PrestigeModel"]?["maxPrestigeStageCount"]?.ToString()),
                 new JProperty("Artifacts Collected", playerProfileData["artifactCount"]?.ToString()),
-                new JProperty("Crafting Power", ((int) playerProfileData["craftingShardsSpent"] / 500).ToString()),
+                new JProperty("Crafting Power", ((int) (playerProfileData["craftingShardsSpent"] ?? 0) / 500).ToString()),
                 new JProperty("Total Pet Levels", playerProfileData["totalPetLevels"]?.ToString()),
                 new JProperty("Skill Points Owned", playerProfileData["totalSkillPoints"]?.ToString()),
                 new JProperty("Hero Weapon Upgrades", playerProfileData["totalHelperWeapons"]?.ToString()),
@@ -369,11 +369,11 @@ namespace TT2Decryptor
                     default: break;
                 }
 
-                bool enchanted = (int)value.GetValue("enchantment_level") > 0;
+                bool enchanted = value.Value<int>("enchantment_level") > 0;
 
-                JObject levelObject = (JObject)value.GetValue("level") ?? new();
+                JObject levelObject = value.Value<JObject>("level") ?? new();
                 string level;
-                string significand = levelObject.GetValue("significand")?.ToString() ?? "";
+                string significand = levelObject.Value<string>("significand") ?? "";
                 if (significand.Length <= 5)
                 {
                     int diff = 4 - significand.Length;
@@ -416,10 +416,10 @@ namespace TT2Decryptor
             JArray allCards = (JArray)SaveObject["RaidCardModel"]?["cards"] ?? new();
             foreach (JObject card in allCards)
             {
-                string skill_name = (string)(JValue)card.GetValue("skill_name");
-                int level = (int)(JValue)card.GetValue("level");
-                int recieved = (int)(JValue)card.GetValue("quantity_received");
-                int spent = (int)(JValue)card.GetValue("quantity_spent");
+                string skill_name = card.Value<string>("skill_name") ?? "";
+                int level = card.Value<int>("level");
+                int recieved = card.Value<int>("quantity_received");
+                int spent = card.Value<int>("quantity_spent");
 
                 string name = Regex.Replace(skill_name, "(?<=[a-z])([A-Z])", " $1");
                 int cards = recieved - spent;
@@ -556,11 +556,8 @@ namespace TT2Decryptor
         private static void ManageObject(JObject jObject, int index = 0)
         {
             jObject.Remove("$type");
-            if (jObject.Parent != null && jObject.ContainsKey("$content"))
+            if (jObject.Parent != null && jObject.TryGetValue("$content", out JToken content))
             {
-
-                JToken content = jObject.GetValue("$content");
-
                 if (content.Type.Equals(JTokenType.Object))
                 {
                     ManageObject((JObject)content);
@@ -621,7 +618,7 @@ namespace TT2Decryptor
             int endPos = decryptedFile.IndexOf("playerData");
             string rawjson = decryptedFile.Substring(0, endPos - 2) + "}";
             var json = JObject.Parse(rawjson);
-            SaveObject = JObject.Parse((string)json.GetValue("saveString"));
+            SaveObject = JObject.Parse(json.Value<string>("saveString") ?? "");
             ManageObject(SaveObject);
             return SaveObject.ToString().Replace("\\", "");
         }
@@ -640,8 +637,7 @@ namespace TT2Decryptor
         private static string DecryptMessageWithSingleDES(byte[] message, byte[] key, byte[] vector)
         {
             string decryptedMessage = null;
-
-            using (var desCryptoServiceProvider = new DESCryptoServiceProvider())
+            using (var desCryptoServiceProvider = DES.Create())
             {
                 desCryptoServiceProvider.Key = key;
                 desCryptoServiceProvider.IV = vector;
@@ -672,7 +668,7 @@ namespace TT2Decryptor
             foreach (JProperty property in artifacts.Children<JProperty>())
             {
                 JObject value = (JObject)property.Value;
-                string level = value.GetValue("level").ToString();
+                string level = value.Value<string>("level") ?? "";
                 string significand = level.Split("E+")[0];
                 string exponent = level.Split("E+")[1];
                 result += "";
