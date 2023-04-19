@@ -15,10 +15,13 @@ namespace TT2Decryptor
         private static JObject SaveObject { get; set; } = new JObject();
         private static readonly Dictionary<string, string> setTranslation = new();
         private static readonly Dictionary<string, string> skillTranslation = new();
-        static async Task Main(string[] args) {
+
+        static async Task Main(string[] args)
+        {
             Console.Write(Match());
             await MainAsync();
         }
+
         private static async Task MainAsync()
         {
             string decryptedJson = GetSaveFileContentString();
@@ -27,31 +30,38 @@ namespace TT2Decryptor
             await File.WriteAllTextAsync(ResultPath, resultJson);
         }
         private static string GetResultJson()
-        {           
+        {
+            var playerProfileData = SaveObject["AccountModel"]?["playerProfileData"];
+            var allPassiveSkillIdLevels = SaveObject["PassiveSkillModel"]?["allPassiveSkillIdLevels"];
+            if (playerProfileData is null || allPassiveSkillIdLevels is null)
+            {
+                return "";
+            }
+
             JObject playerStats = new()
             {
-                new JProperty("Max Prestige Stage", SaveObject["PrestigeModel"]["maxPrestigeStageCount"].ToString()),
-                new JProperty("Artifacts Collected", SaveObject["AccountModel"]["playerProfileData"]["artifactCount"].ToString()),
-                new JProperty("Crafting Power", ((int) SaveObject["AccountModel"]["playerProfileData"]["craftingShardsSpent"] / 500).ToString()),
-                new JProperty("Total Pet Levels", SaveObject["AccountModel"]["playerProfileData"]["totalPetLevels"].ToString()),
-                new JProperty("Skill Points Owned", "3699"),
-                new JProperty("Hero Weapon Upgrades", "1938"),
-                new JProperty("Hero Scroll Upgrades", "2710"),
-                new JProperty("Tournaments Joined", "300"),
-                new JProperty("Undisputed Wins", "77"),
-                new JProperty("Tournament Points", "43728"),
-                new JProperty("Lifetime Relics", "1.256E+204")
+                new JProperty("Max Prestige Stage", SaveObject["PrestigeModel"]?["maxPrestigeStageCount"]?.ToString()),
+                new JProperty("Artifacts Collected", playerProfileData["artifactCount"]?.ToString()),
+                new JProperty("Crafting Power", ((int) playerProfileData["craftingShardsSpent"] / 500).ToString()),
+                new JProperty("Total Pet Levels", playerProfileData["totalPetLevels"]?.ToString()),
+                new JProperty("Skill Points Owned", playerProfileData["totalSkillPoints"]?.ToString()),
+                new JProperty("Hero Weapon Upgrades", playerProfileData["totalHelperWeapons"]?.ToString()),
+                new JProperty("Hero Scroll Upgrades", playerProfileData["totalHelperScrolls"]?.ToString()),
+                new JProperty("Tournaments Joined", playerProfileData["totalTournamentsCount"]?.ToString()),
+                new JProperty("Undisputed Wins", playerProfileData["undisputedCount"]?.ToString()),
+                new JProperty("Tournament Points", playerProfileData["titanPoints"]?.ToString()),
+                new JProperty("Lifetime Relics", GetLifetimeRelics())
             };
             JObject raidStats = new()
             {
-                new JProperty("Raid Level", "412"),
-                new JProperty("Raid Damage", "512"),
-                new JProperty("Total Raid Experience", "258520"),
-                new JProperty("Total Raid Attacks", "3602"),
-                new JProperty("Total Raid Card Levels", "719"),
-                new JProperty("Raid Cards Owned", "35"),
-                new JProperty("Wildcards", "68"),
-                new JProperty("Lifetime Clan Morale", "37684")
+                new JProperty("Raid Level", playerProfileData["raidPlayerLevel"]?.ToString()),
+                new JProperty("Raid Damage",  playerProfileData["raidBaseDamage"]?.ToString()),
+                new JProperty("Total Raid Experience", playerProfileData["raidTotalXP"]?.ToString()),
+                new JProperty("Total Raid Attacks", playerProfileData["raidAttackCount"]?.ToString()),
+                new JProperty("Total Raid Card Levels", playerProfileData["raidTotalCardLevel"]?.ToString()),
+                new JProperty("Raid Cards Owned", playerProfileData["raidUniqueSkillCount"]?.ToString()),
+                new JProperty("Wildcards", playerProfileData["raidWildCardCount"]?.ToString()),
+                new JProperty("Lifetime Clan Morale", playerProfileData["raidTicketsCollected"]?.ToString())
             };
             JObject splashStats = new()
             {
@@ -71,14 +81,14 @@ namespace TT2Decryptor
             };
             JObject passiveSkills = new()
             {
-                new JProperty("Intimidating Presence", SaveObject["PassiveSkillModel"]["allPassiveSkillIdLevels"]["LessMonsters"]),
-                new JProperty("Power Surge", SaveObject["PassiveSkillModel"]["allPassiveSkillIdLevels"]["PetSplashSkip"]),
-                new JProperty("Anti-Titan Cannon", SaveObject["PassiveSkillModel"]["allPassiveSkillIdLevels"]["ClanShipSplashSkip"]),
-                new JProperty("Mystical Impact", SaveObject["PassiveSkillModel"]["allPassiveSkillIdLevels"]["SorcererSplashSkip"]),
-                new JProperty("Arcane Bargain", SaveObject["PassiveSkillModel"]["allPassiveSkillIdLevels"]["RaidCardPower"]),
-                new JProperty("Silent March", SaveObject["PassiveSkillModel"]["allPassiveSkillIdLevels"]["SilentMarch"]),
-                new JProperty("Cloak And Dagger", SaveObject["PassiveSkillModel"]["allPassiveSkillIdLevels"]["DaggerSplashSkip"]),
-                new JProperty("Golden Forge", SaveObject["PassiveSkillModel"]["allPassiveSkillIdLevels"]["AlchemistSplashSkip"])
+                new JProperty("Intimidating Presence", allPassiveSkillIdLevels["LessMonsters"]),
+                new JProperty("Power Surge", allPassiveSkillIdLevels["PetSplashSkip"]),
+                new JProperty("Anti-Titan Cannon", allPassiveSkillIdLevels["ClanShipSplashSkip"]),
+                new JProperty("Mystical Impact", allPassiveSkillIdLevels["SorcererSplashSkip"]),
+                new JProperty("Arcane Bargain", allPassiveSkillIdLevels["RaidCardPower"]),
+                new JProperty("Silent March", allPassiveSkillIdLevels["SilentMarch"]),
+                new JProperty("Cloak And Dagger", allPassiveSkillIdLevels["DaggerSplashSkip"]),
+                new JProperty("Golden Forge", allPassiveSkillIdLevels["AlchemistSplashSkip"])
             };
             JObject json = new()
             {
@@ -94,11 +104,20 @@ namespace TT2Decryptor
             };
             return json.ToString();
         }
+
+        private static string GetLifetimeRelics()
+        {
+            var significand = (double) (SaveObject["PlayerModel"]?["relicsSpentServer"]?["significand"] ?? 0);
+            var exponent = (int) (SaveObject["PlayerModel"]?["relicsSpentServer"]?["exponent"] ?? 0);
+
+            return Math.Round(significand, 3).ToString() + "E+" + exponent.ToString();
+        }
+
         private static JObject BuildSkillTree()
         {
             JObject skillTree = new();
-            JObject idToLevel = (JObject)SaveObject["SkillTreeModel"]["idToLevelDict2.0"];
-            foreach(JProperty skill in idToLevel.Children<JProperty>())
+            JObject idToLevel = (JObject)SaveObject["SkillTreeModel"]?["idToLevelDict2.0"] ?? new();
+            foreach (var skill in idToLevel.Children<JProperty>())
             {
                 skillTree.Add(new JProperty(TranslateSkill(skill.Name), skill.Value));
             }
@@ -106,7 +125,7 @@ namespace TT2Decryptor
         }
         public static string TranslateSkill(string skill)
         {
-            if(0 == skillTranslation.Count)
+            if (0 == skillTranslation.Count)
             {
                 skillTranslation.Add("TapDmg", "Knight's Valor");
                 skillTranslation.Add("TapDmgFromHelpers", "Chivalric Order");
@@ -190,8 +209,8 @@ namespace TT2Decryptor
         {
             JObject petLevels = new();
             string[] pets = { "Nova", "Toto", "Cerberus", "Mousy", "Harker", "Bubbles", "Demos", "Tempest", "Basky", "Scraps", "Zero", "Polly", "Hamy", "Phobos", "Fluffers", "Kit", "Soot", "Klack", "Cooper", "Jaws", "Xander", "Griff", "Basil", "Bash", "Violet", "Annabelle", "Effie", "Percy", "Cosmos", "Taffy" };
-            JObject allPetXps = (JObject)SaveObject["PetModel"]["allPetXps"];
-            foreach(JProperty pet in allPetXps.Children<JProperty>())
+            JObject allPetXps = (JObject)SaveObject["PetModel"]?["allPetXps"] ?? new();
+            foreach (JProperty pet in allPetXps.Children<JProperty>())
             {
                 int level = (int)pet.Value / 100;
                 int.TryParse(pet.Name[3..], out int id);
@@ -201,13 +220,13 @@ namespace TT2Decryptor
         }
         private static JArray BuildEquipmentSets()
         {
-            JArray equipmentSets = new JArray();
-            JArray allLookIDs = SaveObject["EquipmentModel"]
-                .ToObject<JObject>()
-                .GetValue("allLookIDs")
-                .ToObject<JArray>();
-            Dictionary<string, int> sets = new Dictionary<string, int>();
-            foreach(JValue lookID in allLookIDs)
+            JArray equipmentSets = new();
+            JArray allLookIDs = SaveObject["EquipmentModel"]?
+                .ToObject<JObject>()?
+                .GetValue("allLookIDs")?
+                .ToObject<JArray>() ?? new();
+            Dictionary<string, int> sets = new();
+            foreach (var lookID in allLookIDs)
             {
                 string[] id = lookID.ToString().Split('_', 2);
                 if (sets.TryGetValue(id[1], out int value))
@@ -219,9 +238,9 @@ namespace TT2Decryptor
                     sets.Add(id[1], value + 1);
                 }
             }
-            foreach(KeyValuePair<string,int> pair in sets)
+            foreach (KeyValuePair<string, int> pair in sets)
             {
-                if(5 == pair.Value)
+                if (5 == pair.Value)
                 {
                     equipmentSets.Add(new JValue(TranslateEquipment(pair.Key)));
                 }
@@ -231,8 +250,8 @@ namespace TT2Decryptor
 
         private static JObject BuildArtifacts()
         {
-            JObject artifacts = new JObject();
-            JObject allArtifacts = (JObject)SaveObject["ArtifactModel"]["allArtifactInfo"];
+            JObject artifacts = new();
+            JObject allArtifacts = (JObject)SaveObject["ArtifactModel"]?["allArtifactInfo"] ?? new();
             foreach (JProperty property in allArtifacts.Children<JProperty>())
             {
                 if (!property.Value.Type.Equals(JTokenType.Object))
@@ -352,9 +371,9 @@ namespace TT2Decryptor
 
                 bool enchanted = (int)value.GetValue("enchantment_level") > 0;
 
-                JObject levelObject = (JObject)value.GetValue("level");
+                JObject levelObject = (JObject)value.GetValue("level") ?? new();
                 string level;
-                string significand = levelObject.GetValue("significand").ToString();
+                string significand = levelObject.GetValue("significand")?.ToString() ?? "";
                 if (significand.Length <= 5)
                 {
                     int diff = 4 - significand.Length;
@@ -366,7 +385,7 @@ namespace TT2Decryptor
                     {
                         level = significand + ".";
                     }
-                    
+
                     for (int i = 0; i < diff; i++)
                     {
                         level += "0";
@@ -377,7 +396,7 @@ namespace TT2Decryptor
                 {
                     level = significand[..5];
                 }
-                level = level + "E+" + levelObject.GetValue("exponent").ToString().Split('.')[0];
+                level = level + "E+" + levelObject.GetValue("exponent")?.ToString().Split('.')[0];
 
                 JObject artifactDetail = new()
                 {
@@ -393,8 +412,8 @@ namespace TT2Decryptor
 
         private static JObject BuildRaidCards()
         {
-            JObject raidCards = new JObject();
-            JArray allCards = (JArray)SaveObject["RaidCardModel"]["cards"];
+            JObject raidCards = new();
+            JArray allCards = (JArray)SaveObject["RaidCardModel"]?["cards"] ?? new();
             foreach (JObject card in allCards)
             {
                 string skill_name = (string)(JValue)card.GetValue("skill_name");
@@ -418,7 +437,7 @@ namespace TT2Decryptor
         }
         private static string TranslateEquipment(string equipment)
         {
-            if(0 == setTranslation.Count)
+            if (0 == setTranslation.Count)
             {
                 setTranslation.Add("FireKnight", "Ignus, the Volcanic Phoenix");
                 setTranslation.Add("WaterSorcerer", "Kor, the Whispering Wave");
@@ -528,16 +547,17 @@ namespace TT2Decryptor
                 setTranslation.Add("Gingerbread", "Gingerbread Master");
                 setTranslation.Add("PlagueDoctor", "Plague Doctor");
             }
-            if(!setTranslation.TryGetValue(equipment, out string value) || value.Equals(""))
+            if (!setTranslation.TryGetValue(equipment, out string value) || value.Equals(""))
             {
                 value = "MISSING: " + equipment;
             }
             return value;
         }
-        private static void ManageObject(JObject jObject,int index = 0)
+        private static void ManageObject(JObject jObject, int index = 0)
         {
             jObject.Remove("$type");
-            if(jObject.Parent != null && jObject.ContainsKey("$content")) {
+            if (jObject.Parent != null && jObject.ContainsKey("$content"))
+            {
 
                 JToken content = jObject.GetValue("$content");
 
@@ -563,19 +583,20 @@ namespace TT2Decryptor
                     default:
                         Console.WriteLine(jObject.Parent.ToString());
                         break;
-                }               
-            } else
+                }
+            }
+            else
             {
                 foreach (JProperty property in jObject.Children<JProperty>())
                 {
                     ManageProperty(property);
                 }
-            }                    
+            }
         }
         private static void ManageArray(JArray jArray)
         {
             JArray tmpArrayLocal = (JArray)jArray.DeepClone();
-            for(int i = 0; i < jArray.Count; i++)
+            for (int i = 0; i < jArray.Count; i++)
             {
                 if (jArray[i].Type.Equals(JTokenType.Object))
                 {
@@ -588,7 +609,8 @@ namespace TT2Decryptor
             if (property.Value.Type.Equals(JTokenType.Array))
             {
                 ManageArray((JArray)property.Value);
-            } else if (property.Value.Type.Equals(JTokenType.Object))
+            }
+            else if (property.Value.Type.Equals(JTokenType.Object))
             {
                 ManageObject((JObject)property.Value);
             }
@@ -601,10 +623,10 @@ namespace TT2Decryptor
             var json = JObject.Parse(rawjson);
             SaveObject = JObject.Parse((string)json.GetValue("saveString"));
             ManageObject(SaveObject);
-            return SaveObject.ToString().Replace("\\","");
+            return SaveObject.ToString().Replace("\\", "");
         }
         private static string DecryptSaveFile(string path)
-        {          
+        {
             byte[] encryptedFile = File.ReadAllBytes(path);
             byte[] vectorBytes = encryptedFile.Take(8).ToArray();
             byte[] encryptedSaveBytes = encryptedFile.Skip(8).ToArray();
@@ -647,7 +669,7 @@ namespace TT2Decryptor
             string result = "";
             JObject artifactModel = JObject.Parse(File.ReadAllText("../../../artifactModel.json"));
             JObject artifacts = JObject.Parse(File.ReadAllText("../../../artifacts.json"));
-            foreach(JProperty property in artifacts.Children<JProperty>())
+            foreach (JProperty property in artifacts.Children<JProperty>())
             {
                 JObject value = (JObject)property.Value;
                 string level = value.GetValue("level").ToString();
@@ -657,6 +679,6 @@ namespace TT2Decryptor
             }
             return result;
         }
-    }   
+    }
 }
 
