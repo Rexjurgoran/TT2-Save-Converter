@@ -65,7 +65,8 @@ namespace TT2Decryptor
                 new JProperty("Lifetime Clan Morale", playerProfileData["raidTicketsCollected"]?.ToString())
             };
             JObject splashStats = new()
-            {
+            {   
+                //ToDo: find sources for these stats in save file
                 new JProperty("Splash Damage", "2.251E+71"),
                 new JProperty("All Splash Count", "15"),
                 new JProperty("All Splash Skip", "1.245"),
@@ -501,7 +502,6 @@ namespace TT2Decryptor
                 setTranslation.Add("Poet", "The Heartbreaker");
                 setTranslation.Add("Snowman", "Snow Master");
                 setTranslation.Add("Tank", "Black Knight");
-                //New sets
                 setTranslation.Add("Corrupted", "Corrupted");
                 setTranslation.Add("DarkAngel", "The Fallen Angel");
                 setTranslation.Add("Stone", "Giga-Golem");
